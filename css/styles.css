@@ -1,0 +1,396 @@
+@font-face {
+  font-family: "Product Sans";
+  src: url("../fonts/ProductSansRegular.ttf");
+}
+
+@font-face {
+  font-family: "Product Sans Bold";
+  src: url("../fonts/ProductSansBold.ttf");
+}
+
+@font-face {
+  font-family: "Avenir Next Cyr";
+  src: url("../fonts/AvenirNextCyr.ttf");
+}
+
+@font-face {
+  font-family: "Avenir Next Cyr Bold";
+  src: url("../fonts/AvenirNextCyrBold.ttf");
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	font-family: "Avenir Next Cyr";
+	font-size: 16px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	font-family: "Avenir Next Cyr";
+	font-size: 16px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	font-family: "Avenir Next Cyr";
+	font-size: 16px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+p {
+	font-family: "Avenir Next Cyr";
+	font-size: 16px;
+	line-height: 20px;
+	margin-block-end: 0; 
+}
+
+.nav {
+	height: 66px;
+}
+
+.p-t-20 {
+	padding-top: 20px;
+}
+
+.p-b-20 {
+	padding-bottom: 20px;
+}
+
+.p-l-20 {
+	padding-left: 20px;
+}
+
+.p-r-20 {
+	padding-right: 20px;
+}
+
+.p-t-24 {
+	padding-top: 24px;
+}
+
+.m-t-30 {
+	margin-top: 30px;
+}
+
+.p-0 {
+	padding: 0;
+}
+.m-r-0 {
+	margin-right: 0;
+}
+
+.hero {
+	background-image: url("../images/main-bg-mobile.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-blend-mode: multiply;
+	height: 520px;
+}
+
+.logo-title {
+	font-family: "Product Sans";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 32px;
+	color: #3B4BDB;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.main-title {
+	font-family: "Avenir Next Cyr Bold";
+	font-style: normal;
+	font-size: 26px;
+	line-height: 32px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 158px;
+	margin-bottom: 4px;
+}
+
+.main-description {
+	font-style: normal;
+	font-size: 18px;
+	line-height: 150%;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+	margin-bottom: 22px;
+}
+
+.main-block-button {
+	background: #3B4BDB;
+	border-radius: 8px;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #FAFAFA;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	margin-bottom: 12px;
+}
+
+.main-block-button-reverse {
+	background: rgba(59, 75, 219, 0.2);
+	border: 1px solid #3B4BDB;
+	box-sizing: border-box;
+}
+
+.work-description {
+	padding-top: 24px;
+	padding-bottom: 24px;
+	background: #030027;
+	color: #FFFFFF;
+}
+
+.link-text {
+	color: #4D5DEC;
+	text-decoration: none;
+}
+
+.basic-title {
+	font-family: "Avenir Next Cyr Bold";
+	font-size: 24px;
+	line-height: 140%;
+	margin-bottom: 0;
+}
+
+.basic-subtitle {
+	font-family: "Avenir Next Cyr Bold";
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 27px;
+	margin-bottom: 6px;
+}
+
+.basic-description {
+	font-size: 14px;
+	line-height: 145%;
+	letter-spacing: 0.02em;
+	margin-bottom: 6px;
+}
+
+.slick-list{padding:0 20% 0 0;}
+
+.event-slider-block {
+	padding-left: 20px;
+}
+
+.event-block {
+	background-color: #1C193D;
+	border-radius: 16px;
+	color: #FFFFFF;
+	padding: 12px 18px;
+	margin-right: 10px;
+}
+
+.event-block-title {
+	font-family: "Avenir Next Cyr Bold";
+	font-size: 22px;
+	line-height: 27px;
+	margin-top: 40px;
+}
+
+.event-block-description {
+	font-family: "Avenir Next Cyr";
+	font-size: 12px;
+	line-height: 145%;
+	margin-bottom: 40px;
+}
+
+.event-button {
+	border: none;
+	background: #3B4BDB;
+	border-radius: 16px;
+	font-family: "Avenir Next Cyr";
+	font-size: 12px;
+	line-height: 145%;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 16px; 
+	right: 18px;
+}
+
+.date-text {
+	margin-right: 16px;
+}
+
+.group-block {
+	margin-right: 10px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.group-slider-block {
+	padding-left: 20px;
+}
+
+.group-header {
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	background-color: #F1F1F9;
+}
+
+.group-logo {
+	margin: 60px 0 30px 0;
+	display: inline!important;
+}
+
+.group-body {
+	padding: 12px 20px;
+	background-color: #1C193D;
+	color: #FFFFFF;
+	border-bottom-left-radius: 16px;
+	border-bottom-right-radius: 16px;
+}
+
+.group-name {
+	font-family: "Avenir Next Cyr Bold";
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.group-block-description {
+	font-family: "Avenir Next Cyr";
+	font-size: 12px;
+	line-height: 145%;
+	margin-bottom: 14px;
+}
+
+.group-block-number {
+	font-family: "Avenir Next Cyr";
+	font-size: 10px;
+	line-height: 145%;
+}
+
+.category-span {
+	background-color: #F1F1F9;
+	color: #989AB3;;
+	box-sizing: border-box;
+	border-radius: 30px;
+	font-family: "Avenir Next Cyr";
+	font-size: 14px;
+	line-height: 160%;
+	padding: 5px 14px;
+}
+
+.category-span:hover {
+	background-color: #3B4BDB;
+	border: 0.5px solid #3B4BDB;
+	color: #FAFAFA;
+	box-sizing: border-box;
+}
+
+.category-box {
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 50px
+}
+
+.category-link {
+	text-decoration: none;
+	margin: 8px 6px;
+}
+
+.footer {
+	background-color: #1C193D;
+	color: #FFFFFF;
+}
+
+.copywrite {
+	background-color: #0D1234;
+	color: #FAFAFA;
+	padding: 18px;
+	text-align: center;
+	font-family: "Avenir Next Cyr";
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.footer-title {
+	font-family: "Product Sans Bold";
+	font-size: 26px;
+	line-height: 32px;
+}
+
+.footer-description {
+	font-family: "Avenir Next Cyr";
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 150%;
+	color: #FFFFFF;
+}
+
+.social-media-links {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.social-img {
+	margin-right: 22px;
+}
+
+.footer-text {
+	font-family: "Avenir Next Cyr";
+	font-size: 18px;
+	line-height: 22px;
+	color: #FAFAFA;
+	margin-bottom: 15px;
+}
+
+.footer-hr {
+	background-color: #322E59;
+}
+
+.hidden-nav {
+	padding: 20px 20px 4px 20px;
+	z-index: 1000000;
+	width: 100%; 
+	position: absolute;
+	background-color: #FFFFFF;
+}
+
+.hidden-nav-text {
+	font-family: "Avenir Next Cyr";
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+.hidden-nav-hr {
+	background-color: #CCCCCC; 
+}
+
+.search-input {
+	width: 100%;
+	border: 0.5px solid rgba(0, 0, 0, 0.2);
+	box-sizing: border-box;
+	border-radius: 6px;
+	padding: 11px 17px;
+	margin-top: 28px;
+	margin-bottom: 28px;
+}
+
+.language-ru, .language-kg {
+	margin-right: 18px;
+}
+
+.search-icon {
+	position: absolute;
+    top: 60px;
+    right: 25px;
+}
